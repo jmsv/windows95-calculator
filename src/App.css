@@ -1,0 +1,69 @@
+.calculator {
+  width: 320px;
+  min-height: 200px;
+  margin: 64px;
+  padding: 4px;
+  background: #ccc;
+}
+
+.calculator-body {
+  padding: 10px;
+}
+
+.titlebar {
+  background: rgb(27, 27, 129);
+  padding: 3px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.title {
+  padding: 2px 0 0 2px;
+  font-size: 15px;
+}
+
+.menu {
+  display: flex;
+  margin: 2px 0 0 0;
+}
+
+.menu-item {
+  padding: 2px 4px;
+  font-size: 0.9em;
+}
+
+hr {
+  margin: 6px 0 2px 0;
+}
+
+.window-controls {
+  display: flex;
+  float: right;
+  color: black;
+}
+
+.window-btn {
+  width: 19px;
+  height: 19px;
+  background: #ccc;
+}
+
+.bevel {
+  box-shadow: -2px -2px 1px rgba(0, 0, 0, 0.8) inset,
+    2px 2px 1px rgba(255, 255, 255, 0.8) inset;
+}
+
+.bevel-inset {
+  box-shadow: -2px -2px 2px rgba(255, 255, 255, 0.8) inset,
+    2px 2px 1px rgba(0, 0, 0, 0.6) inset;
+}
+
+input {
+  margin: 0;
+  width: calc(100% - 16px);
+  display: table-cell;
+  border: none;
+  padding: 6px;
+  text-align: right;
+}
